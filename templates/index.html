@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QQROCKY — Telegram</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            background: #08090d;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 24px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 760px;
+            text-align: center;
+        }
+
+        .logo {
+            width: 92px;
+            height: 92px;
+            margin: 0 auto 24px;
+            border-radius: 28px;
+            background: linear-gradient(135deg, #229ed9, #7b61ff);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 38px;
+            font-weight: 800;
+            box-shadow: 0 18px 50px rgba(34, 158, 217, 0.22);
+        }
+
+        .tag {
+            color: #8e96a3;
+            font-size: 14px;
+            margin-bottom: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            font-size: clamp(42px, 9vw, 78px);
+            line-height: 0.95;
+            letter-spacing: -3px;
+            margin-bottom: 18px;
+        }
+
+        .description {
+            max-width: 570px;
+            margin: 0 auto 30px;
+            color: #aeb5c1;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .button {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background: #229ed9;
+            padding: 16px 30px;
+            border-radius: 14px;
+            font-size: 17px;
+            font-weight: 700;
+            transition: 0.2s;
+            box-shadow: 0 12px 35px rgba(34, 158, 217, 0.25);
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+            background: #35aae0;
+        }
+
+        .card {
+            margin-top: 50px;
+            padding: 26px;
+            border: 1px solid #1d2028;
+            background: #0e1016;
+            border-radius: 20px;
+            text-align: left;
+        }
+
+        .card h2 {
+            font-size: 21px;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #9098a6;
+            line-height: 1.6;
+        }
+
+        .username {
+            color: #229ed9;
+            margin-top: 14px;
+            font-weight: 700;
+        }
+
+        footer {
+            margin-top: 28px;
+            color: #555d69;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <div class="logo">Q</div>
+
+        <div class="tag">Telegram project</div>
+        <h1>QQROCKY</h1>
+
+        <p class="description">
+            Добро пожаловать на официальный сайт проекта QQROCKY.
+            Все основные обновления и материалы — в нашем Telegram-канале.
+        </p>
+
+        <a class="button" href="https://t.me/qqrocky" target="_blank">
+            Открыть Telegram
+        </a>
+
+        <section class="card">
+            <h2>Наш Telegram</h2>
+            <p>
+                Подписывайся на канал, чтобы не пропускать новые публикации,
+                обновления и другие материалы проекта.
+            </p>
+            <div class="username">@qqrocky</div>
+        </section>
+
+        <footer>
+            © 2026 QQROCKY
+        </footer>
+    </main>
+</body>
+</html>
